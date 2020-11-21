@@ -114,3 +114,63 @@ body {
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     max-width: 350px;
 }
+
+.recommended-product-3 {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    max-width: 350px;
+}
+
+.recommended-product-4 {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    max-width: 350px;
+}
+
+/* card */
+
+.rating-star i {
+    color: #ffa801;
+}
+
+.card-shadow:hover {
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+}
+
+.card-shadow {
+    transition: all 0.3s;
+}
+
+/* GO TOP BTN */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1e272e;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    animation: btn-top 2.0s infinite;
+    transition: ease-in 0.1s;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+@keyframes btn-top {
+    0% {
+        transform: translatey(0);
+    }
+    50% {
+        transform: translatey(-10px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+  }

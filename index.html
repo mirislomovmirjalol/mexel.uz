@@ -21,6 +21,12 @@
 
 <body>
 
+    <!-- Top btn -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Header, nav -->
 
     <header class="section-header">
@@ -138,29 +144,254 @@
 
         <!-- recommended block -->
 
-        <div class="container text-center">
+        <div class="container text-center mb-3">
             <div class="row">
-                <div class="recommended-product-1 mx-auto col-md-12 my-3">
+                <div class="recommended-product-1 mx-auto col-md-12 mt-3">
                     <h2 class="my-2 text-light">iPhone x</h2>
                     <p class="my-2 text-light">Lorem ipsum dolor sit amet.</p>
                     <img src="./img/Rec.png" width="50%" alt="" srcset="">
                     <a href="#" class="btn btn-outline-light">Shop now</a>
                 </div>
-                <div class="recommended-product-2 mx-auto col-md-12 my-3">
+                <div class="recommended-product-2 mx-auto col-md-12 mt-3">
                     <h2 class="my-3 text-light">iPhone x</h2>
                     <p class="my-2 text-light">Lorem ipsum dolor sit amet.</p>
                     <img src="./img/Rec.png" width="50%" alt="" srcset="">
-                    <a href="#" class="btn btn-outline-light">Shop now</a>
+                    <a href="#" class="btn btn-outline-light">Shop Now</a>
                 </div>
             </div>
-            <hr class="mb-3">
         </div>
 
         <!-- Popular products -->
 
         <div class="container">
             <h3>Popular Products</h3>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product2.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos M50
+                                </a>
+                            </h5>
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                1200.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product3.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos Kit 55-80
+                                </a>
+                            </h5>
+                            <!-- Comment <p>Lorem ipsum dolor sit amet.</p> -->
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                800.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product2.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos M50
+                                </a>
+                            </h5>
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                1200.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product3.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos Kit 55-80
+                                </a>
+                            </h5>
+                            <!-- Comment <p>Lorem ipsum dolor sit amet.</p> -->
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                800.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
         </div>
+
+        <!-- new products -->
+
+        <div class="container">
+            <h3>New Products</h3>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product4.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos M50
+                                </a>
+                            </h5>
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                1200.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product4.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos Kit 55-80
+                                </a>
+                            </h5>
+                            <!-- Comment <p>Lorem ipsum dolor sit amet.</p> -->
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                800.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product4.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos M50
+                                </a>
+                            </h5>
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                1200.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card card-shadow">
+                        <a href="#">
+                            <img src="./img/product4.jpg" width="100%" class="card-img-top" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5>
+                                <a href="#" class="text-dark">
+                                    Canon Eos Kit 55-80
+                                </a>
+                            </h5>
+                            <!-- Comment <p>Lorem ipsum dolor sit amet.</p> -->
+                            <span class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text my-2">
+                                800.00$
+                            </p>
+                            <a href="#!" class="btn btn-dark">Add Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+
+        <footer id="sticky-footer" class="py-4">
+            <div class="container text-center">
+                <small class="text-dark">Copyright &copy; Mirislomov Mirjalol</small>
+            </div>
+        </footer>
 
     </section>
     <!-- My JavaScript link-->
