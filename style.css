@@ -63,11 +63,6 @@ body {
     background-color: #fa3434
 }
 
-.navbar-toggler {
-    border: solid 1px;
-    padding: 7px 15px;
-}
-
 .search-form {
     border: 1px solid #1e272e !important
 }
@@ -178,4 +173,9 @@ body {
     100% {
         transform: translatey(0px);
     }
-  }
+}
+
+.footer-items a{
+    font-weight: 500;
+    font-size: 18px;
+}
