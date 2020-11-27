@@ -129,6 +129,7 @@ body {
 
 .rating-star i {
     color: #ffa801;
+    font-size: 0.7rem;
 }
 
 .card-shadow:hover {
@@ -139,6 +140,19 @@ body {
     transition: all 0.3s;
 }
 
+.card-body h5 {
+    font-size: 14px;
+    height: 65px;
+}
+.card-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mini-title {
+    font-size: 13px;
+    height: 15px;
+}
 /* GO TOP BTN */
 
 #myBtn {
@@ -175,7 +189,24 @@ body {
     }
 }
 
-.footer-items a{
+.text-bold {
+    font-weight: 500;
+}
+
+.category-list ul li {
+    margin: 4px 4px;
+}
+
+.category-list ul {
+    font-size: 14px;
+}
+
+.category-item-container {
+    padding: 0 30px;
+}
+
+.footer-items a {
     font-weight: 500;
     font-size: 18px;
 }
+
