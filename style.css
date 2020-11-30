@@ -152,6 +152,7 @@ body {
 .mini-title {
     font-size: 13px;
     height: 15px;
+    line-height: 15px;
 }
 /* GO TOP BTN */
 
@@ -240,4 +241,20 @@ body {
 .badge-light {
     color: #212529;
     background-color: #e4e4e4;
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    .pos-sticky {
+        position: sticky;
+        top: 50px;    
+    }
+    .category-text-small {
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
 }
