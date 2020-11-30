@@ -193,6 +193,8 @@ body {
     font-weight: 500;
 }
 
+/* category */
+
 .category-list ul li {
     margin: 4px 4px;
 }
@@ -210,3 +212,32 @@ body {
     font-size: 18px;
 }
 
+.filter-group .card-header {
+    border-bottom: 0;
+}
+
+.icon-control {
+    margin-top: 5px;
+    float: right;
+    font-size: 80%;
+    color: #212529;
+}
+
+.list-menu li {
+    margin-bottom: 5px;
+}
+
+.list-menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.list-menu a {
+    color: #212529;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #e4e4e4;
+}
