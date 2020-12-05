@@ -11,6 +11,10 @@ body {
     background-color: #eee;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header, navbar */
 
 .header-main {
@@ -144,6 +148,7 @@ body {
     font-size: 14px;
     height: 65px;
 }
+
 .card-text {
     font-size: 1rem;
     font-weight: 500;
@@ -154,6 +159,7 @@ body {
     height: 15px;
     line-height: 15px;
 }
+
 /* GO TOP BTN */
 
 #myBtn {
@@ -243,15 +249,46 @@ body {
     background-color: #e4e4e4;
 }
 
+/* product-page */
 
+.item-shadow:hover {
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+}
 
+.item-shadow {
+    transition: all 0.3s;
+}
 
+.quantity {
+    height: 2rem;
+}
 
+.quantity input {
+    max-width: 3rem;
+    padding: .5rem;
+    border: 0px;
+    font-size: 1rem;
+    height: 100%;
+    color: #495057;
+}
+
+.quantity button {
+    border: 1px solid #ced4da;
+    width: 2.5rem;
+    height: 100%;
+    background-color: #ffffff;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
 
 @media screen and (min-width: 800px) {
     .pos-sticky {
         position: sticky;
-        top: 50px;    
+        top: 50px;
     }
     .category-text-small {
         font-size: 0.6rem;
